@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.brigitte</groupId>
-    <artifactId>LookItUpMaven</artifactId>
+    <artifactId>LookItUp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>LookItUpMaven</name>
+    <name>LookItUp</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

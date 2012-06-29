@@ -1,4 +1,4 @@
-package com.brigitte.lookitup.jpa.stam.util;
+package com.brigitte.lookitup.jsf.util;
 
 import javax.faces.model.DataModel;
 
