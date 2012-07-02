@@ -18,7 +18,7 @@
                     <h:outputText value="Name:"/>
                     <h:inputText id="name" value="#{analysisRecord.analysisRecord.name}" title="Name" required="true" requiredMessage="The name field is required."/>
                     <h:outputText value="AnalysisExpressionCollection:"/>
-                    <h:selectManyListbox id="analysisExpressionCollection" value="#{analysisRecord.analysisRecord.jsfcrud_transform[jsfcrud_class['com.brigitte.lookitup.jsf.util.JsfUtil'].jsfcrud_method.collectionToArray][jsfcrud_class['jsf.util.JsfUtil'].jsfcrud_method.arrayToCollection].analysisExpressionCollection}" title="AnalysisExpressionCollection" size="6" converter="#{analysisExpression.converter}" >
+                    <h:selectManyListbox id="analysisExpressionCollection" value="#{analysisRecord.analysisRecord.jsfcrud_transform[jsfcrud_class['com.brigitte.lookitup.jsf.util.JsfUtil'].jsfcrud_method.collectionToArray][jsfcrud_class['com.brigitte.lookitup.jsf.util.JsfUtil'].jsfcrud_method.arrayToCollection].analysisExpressionCollection}" title="AnalysisExpressionCollection" size="6" converter="#{analysisExpression.converter}" >
                         <f:selectItems value="#{analysisExpression.analysisExpressionItemsAvailableSelectMany}"/>
                     </h:selectManyListbox>
                 </h:panelGrid>
